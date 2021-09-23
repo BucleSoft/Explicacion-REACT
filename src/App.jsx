@@ -2,6 +2,7 @@ import './styles/App.css';
 import borderCollie from './media/borderCollie.jpg';
 import rhodesian from './media/rhodesian.jpg';
 import logo from './media/logo.png';
+import {CardRazasPerros} from './components/CardRazasPerros';
 
 function App() {
   return (
@@ -37,17 +38,6 @@ function App() {
       </main>
       <footer></footer>
     </div>
-  );
-}
-
-function CardRazasPerros({img, raza, alt}) {
-  return (
-    <li className="breedCard">
-              <div className="contenedorImagen">
-                <img src={img} alt={alt} />
-              </div>
-              <span className="breedTitle">{raza}</span>
-            </li>
   );
 }
 
