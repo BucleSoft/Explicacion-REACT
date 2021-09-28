@@ -1,9 +1,10 @@
 import React from 'react';
+import { Layout } from '../layouts/Layout';
 
 export const Rhodesian = () => {
     return (
-        <div>
-            Esta es la página del Rhodesian
-        </div>
+       <Layout>
+           <div>Esta es la info de la página del Rhodesian</div> 
+       </Layout>
     );
 }
